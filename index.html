@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alston Albarado's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/be6d9fdd26.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="menu-bar">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="#" onclick="showSection('profile')">Home</a></li>
+                    <li><a href="#" onclick="showSection('research')">Research</a></li>
+                    <li><a href="#" onclick="showSection('education')">Education</a></li>
+                    <li><a href="#" onclick="showSection('work')">Experience</a></li>
+                    <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                    <li><a href="#" onclick="showSection('publications')">Publications</a></li>
+                    <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                    <li><a href="#" onclick="showSection('teaching')">Teaching</a></li>
+                    <li><a href="#" onclick="showSection('awards')">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="profile-pic">
+              <img src="profile/1.svg" alt="Alston Albarado" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+            </div>
+            <div class="right-section">
+              <div class="intro-text">
+                <p>H<span id="typing-text"></span></p>
+                <h1>Alston Albarado</h1>
+              </div>
+              <div class="profile-card">
+                <p class="summary">
+                    Experienced theatre practitioner and childcare professional with a passion for performing arts, education, teaching, youth mentorship, graphic design, desktop publishing, and technology. Highly driven and motivated to utilize diverse talents and further develop skills.
+                </p>
+              </div>
+            </div>
+        </section>
+        <div class="contacts">
+            <a href="https://youtu.be/AUefIqEekSs" target="_blank" aria-label="Social Media"><i class="fa-brands fa-youtube fa-lg"></i></a>
+            <a href="mailto:aa22@hawaii.edu" aria-label="Email"><i class="fa-solid fa-envelope fa-lg"></i></a>
+            <a href="tel:+18084767455" aria-label="Phone"><i class="fa-solid fa-phone fa-lg"></i></a>
+        </div>
+
+        <section id="research" class="hidden">
+            <h2>Research Interests</h2>
+            <div id="research-interests-container" class="research-grid">
+                <div class="research-card">
+                    <h3 class="research-field">Education</h3>
+                    <p class="research-description"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="hidden">
+            <h2 class="section-title">Education</h2>
+            <div class="content-container" id="education-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">May 2019</div>
+                        <div class="timeline-content">
+                            <h3>Master's in Theatre for Young Audiences</h3>
+                            <span class="school">University of Hawaii at Manoa</span>
+                            <p class="field">Theatre for Young Audiences</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">December 2014</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor's in Performing Arts</h3>
+                            <span class="school">University of Hawaii at Hilo</span>
+                            <p class="field">Performing Arts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="hidden">
+            <h2>Work Experience</h2>
+            <div class="content-container" id="experience-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">July 2021 to September 2021</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Administrative Assistant</h3>
+                            <span class="institution">Moili'ili Community Center</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Oversee and assist with managing the Children and Families Program with the Director.</li>
+                                    <li>Prepare documents, correspondence, and promotional material for the department.</li>
+                                    <li>Maintain communication with Department Staff, School Personnel, and Community Resources.</li>
+                                    <li>Organize staff availability and create schedules for various programs within the department.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">July 2019 to June 2021</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Site Coordinator</h3>
+                            <span class="institution">Moili'ili Community Center</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Prepare programming, organize materials, and manage assigned after school site.</li>
+                                    <li>Facilitate communication with parents, school personnel, and staff members.</li>
+                                    <li>Write and edit documentation, reports, and letters.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">June 2019 to July 2019</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Site Director</h3>
+                            <span class="institution">Young Mens Christian Association</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Prepare programming, organize materials, and manage assigned after school site.</li>
+                                    <li>Facilitate communication with parents, school personnel, and staff members.</li>
+                                    <li>Write and edit documentation, reports, and letters.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">February 2015 to July 2019</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Delivery Expert</h3>
+                            <span class="institution">Dominos</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Consistently completed on-time deliveries.</li>
+                                    <li>Maintained receipts and income from deliveries.</li>
+                                    <li>Inspected and maintained cleanliness of vehicle.</li>
+                                    <li>Delivered products in a timely and courteous manner.</li>
+                                    <li>Provided excellent customer service.</li>
+                                    <li>Trained incoming and new staff members.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">January 2017 to May 2019</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Recreation Leader</h3>
+                            <span class="institution">Young Mens Christian Association</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Supervise assigned group of up to 20 children in a safe and efficient fashion.</li>
+                                    <li>Prepare lesson plans and implement structured activities for program participants.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">December 2011 to December 2018</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Assistant Manager (Seasonal)</h3>
+                            <span class="institution">Worldwide Photography</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Supervised staff at the Mall Photography booth during the Christmas and Easter seasons.</li>
+                                    <li>Handled the closing deposit and verified the money against the POS system.</li>
+                                    <li>Assisted Location Manager perform managerial duties when necessary.</li>
+                                    <li>Supervised crew and troubleshoot any problems that arise.</li>
+                                    <li>Performed open/close procedures, daily deposit procedures, equipment maintenance, etc.</li>
+                                    <li>Trained staff members on the operations of the photography equipment.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">January 2016 to May 2016</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Tutor / Part-Time Teacher</h3>
+                            <span class="institution">Waiakea Intermediate School UPLINK</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Supervise assigned group of up to 20 children in a safe and efficient fashion.</li>
+                                    <li>Prepare lesson plans and implement structured activities for program participants.</li>
+                                    <li>Classes taught included Fitness, Movement / Dance, Drama, and Robotics.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">January 2015 to April 2015</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Costume Designer (Temporary)</h3>
+                            <span class="institution">Hilo High School Performing Arts Learning Center</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Design and construct the costumes for the selected production.</li>
+                                    <li>Educate the actors on the complexities of their costumes.</li>
+                                    <li>Maintain and launder articles as needed.</li>
+                                    <li>Repair and fix any mishaps to the pieces during the run of the production.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">January 2012 to December 2014</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Costume Shop Assistant / Theatre Stitcher / Theatre Usher</h3>
+                            <span class="institution">University of Hawaii at Hilo Performing Arts Center</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Construct costumes based upon Designer's designs for the productions in the season.</li>
+                                    <li>Make repairs during the course of the show (fixing seams or tears).</li>
+                                    <li>Supervise Costume Shop inventory and rental system.</li>
+                                    <li>Assist patrons that attend the shows by showing them to their seats, handing out flyers, etc.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="hidden">
+            <h2>Technical Skills</h2>
+            <div id="technical-skills-container" class="skills-grid">
+                <div class="skill-item">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Tutoring</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-brain"></i>
+                    <span>Event Planning</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-fire"></i>
+                    <span>Public Speaking</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Childcare</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Computer Skills</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-cloud"></i>
+                    <span>Microsoft Office</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Management Experience</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Supervising Experience</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Classroom Management</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Teaching</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Assistant Manager Experience</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Organizational Skills</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Theater</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Adobe Creative Suite</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Graphic design</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Adobe Photoshop</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Curriculum development</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Social media management</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Adobe InDesign</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Photography</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Video editing</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Adobe Premiere</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Web design</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Dancing</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="teaching" class="hidden">
+            <h2 class="section-title">Teaching Experience</h2>
+            <div class="content-container" id="teaching-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Spring 2019</div>
+                        <div class="timeline-content">
+                            <h3 class="teaching-role">Instructor</h3>
+                            <span class="teaching-institution">University of Hawaiʻi at Manoa</span>
+                            <div class="courses-container">
+                                <h4>Courses:</h4>
+                                <ul>
+                                    <li>THEA 221: Introduction to Acting</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Spring 2017, Fall 2018</div>
+                        <div class="timeline-content">
+                            <h3 class="teaching-role">Teaching Assistant</h3>
+                            <span class="teaching-institution">University of Hawaiʻi at Manoa</span>
+                            <div class="courses-container">
+                                <h4>Courses:</h4>
+                                <ul>
+                                    <li>THEA 101: Introduction to Theatre</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards" class="hidden">
+            <h2 class="section-title">Honors & Awards</h2>
+            <div class="content-container" id="awards-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">August 2019</div>
+                        <div class="timeline-content">
+                            <h3 class="award-name">Hawaii State Theater Council's Pookela Award</h3>
+                            <span class="award-issuer">University of Hawaii at Manoa Kennedy Theatre</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">August 2017</div>
+                        <div class="timeline-content">
+                            <h3 class="award-name">Hawaii State Theater Council's Pookela Award</h3>
+                            <span class="award-issuer">Chaminade Performing Arts</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">March 2018</div>
+                        <div class="timeline-content">
+                            <h3 class="award-name">The Kennedy Center American College Theater Festival (Region VII) Meritorious Achievement Award</h3>
+                            <span class="award-issuer">University of Hawaii at Manoa</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">May 2019</div>
+                        <div class="timeline-content">
+                            <h3 class="award-name">Tamara Montgomery Award for Excellence in Theatre for Young Audiences</h3>
+                            <span class="award-issuer">University of Hawaii at Manoa, Department of Theatre and Dance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="theme-toggle" onclick="toggleTheme()"><i class="fa-solid fa-moon fa-lg"></i></button>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            body.classList.toggle('dark');
+
+            const button = document.querySelector('.theme-toggle');
+            button.innerHTML = body.classList.contains('dark')
+                ? '<i class="fa-solid fa-sun fa-lg"></i>'
+                : '<i class="fa-solid fa-moon fa-lg"></i>';
+        }
+
+        function showSection(id) {
+            document.querySelectorAll('main section').forEach(s => s.classList.add('hidden'));
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        // Default section on page load
+        showSection('profile');
+        const text = "ello, I'm";
+        const typingText = document.getElementById('typing-text');
+        let index = 0;
+        let isDeleting = false;
+
+        function typeEffect() {
+            if (isDeleting) {
+                typingText.innerText = text.substring(0, index--);
+            } else {
+                typingText.innerText = text.substring(0, index++);
+            }
+            let speed = isDeleting ? 75 : 150;
+            if (!isDeleting && index === text.length + 1) {
+                speed = 1200; // Pause at full text before deleting
+                isDeleting = true;
+            } else if (isDeleting && index === 0) {
+                isDeleting = false;
+                speed = 500; // Pause before typing again
+            }
+            setTimeout(typeEffect, speed);
+        }
+        typeEffect();
+
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                document.querySelectorAll('.timeline-item.active').forEach(activeItem => {
+                    if (activeItem !== this) {
+                        activeItem.classList.remove('active');
+                    }
+                });
+                this.classList.add('active');
+            });
+
+            item.addEventListener('click', function () {
+                document.querySelectorAll('.timeline-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Project section
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.project-card');
+        const totalSlides = slides.length;
+
+        function updateCarousel() {
+            const container = document.querySelector('.projects-container');
+            container.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+            currentSlide++;
+            updateCarousel();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+            currentSlide--;
+            updateCarousel();
+            }
+        }
+        document.addEventListener('DOMContentLoaded', updateCarousel);
+    </script>
+</body>
+</html>
